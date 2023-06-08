@@ -1,4 +1,4 @@
-package com.mobiledeveloperblog.cameravip
+package com.mobiledeveloperblog.camerasample1
 
 import android.Manifest
 import android.app.Activity

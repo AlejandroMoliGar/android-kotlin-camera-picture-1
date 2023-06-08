@@ -4,22 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.mobiledeveloperblog.camerasample1.MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.CameraSampleApp1.AppBarOverlay">
+        android:theme="@style/Theme.Cameravip.AppBarOverlay">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.CameraSampleApp1.PopupOverlay" />
+            app:popupTheme="@style/Theme.Cameravip.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_main" />
+
+    <LinearLayout
+        android:id="@+id/storagePermissionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#80000000"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This app requires storage permission to function properly."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_margin="16dp" />
+
+        <Button
+            android:id="@+id/permissionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Request Permission"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_background"
+            android:padding="8dp" />
+
+    </LinearLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

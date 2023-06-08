@@ -1,4 +1,4 @@
-package com.mobiledeveloperblog.cameravip
+package com.mobiledeveloperblog.camerasample1
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -8,8 +8,8 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.mobiledeveloperblog.cameravip.R
-import com.mobiledeveloperblog.cameravip.R.*
+import com.mobiledeveloperblog.camerasample1.R
+import com.mobiledeveloperblog.camerasample1.R.*
 
 
 
