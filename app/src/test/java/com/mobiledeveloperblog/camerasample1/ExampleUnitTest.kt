@@ -1,4 +1,4 @@
-package com.mobiledeveloperblog.camerasample1
+package com.mobiledeveloperblog.cameravip
 
 import org.junit.Test
 

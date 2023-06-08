@@ -1,4 +1,4 @@
-package com.mobiledeveloperblog.camerasample1
+package com.mobiledeveloperblog.cameravip
 
 import android.Manifest
 import android.app.Activity
@@ -18,6 +18,8 @@ import android.widget.Button
 import android.widget.ImageView
 import androidx.appcompat.app.AlertDialog
 import androidx.core.content.ContextCompat.checkSelfPermission
+import com.mobiledeveloperblog.camerasample1.R
+
 
 
 /**
